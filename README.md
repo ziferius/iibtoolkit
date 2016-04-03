@@ -23,9 +23,9 @@ The below install files should be in sub-directories under your docker build fol
 
 You should have the following subfolders in your build directory:
 
-Integration_Toolkit
-hcp
-xulrunner
+- Integration_Toolkit
+- hcp
+- xulrunner
 
 and you should have Dockerfile in the build folder as well.
 
