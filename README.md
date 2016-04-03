@@ -21,7 +21,7 @@ The below install files should be in sub-directories under your docker build fol
 1. We need an extracted x86_64 linux binaries of the actual toolkit.  For my source, it can from the whole shebang (Websphere MQ, MQSI, IIB Toolkit and IIB Explorer)  You want the Intergration_Toolkit folder.
 2. We also need the Healthcare Connectivity Pack v3.0.0.1 -- that will install without a previous version of the pack installed.  In otherwords; it can't just be the fixpack.  Unzip it to a folder called hcp.
 3. XulRunner 1.9.2.19 -- wget https://ftp.mozilla.org/pub/xulrunner/releases/1.9.2.19/runtimes/xulrunner-1.9.2.19.en-US.linux-i686.tar.bz2.  Untar/Uncompress it in a folder called xulrunner.
-4. IBM JDK v7, Release #1 -- https://www.ibm.com/services/forms/preLogin.do?source=swg-sdk7v1&S_PKG=intel_7.1.3.30&S_TACT=105AGX05&S_CMP=JDK -- IIB Eclipse tooling is 32 bit so we get the 32 bit version.  Get the SDK for "Simple unzip with license".  Modifiy the jdk.installer.properties file to install the jdk in the jdk subfolder of your image build folder.  To install the files execute ./bim-java-sdk-7.1-3-30-i386-archive.bin -i silent -f $PWD/jdk.installer.properties.
+4. IBM JDK v7, Release #1 -- https://www.ibm.com/services/forms/preLogin.do?source=swg-sdk7v1&S_PKG=intel_7.1.3.30&S_TACT=105AGX05&S_CMP=JDK -- IIB Eclipse tooling is 32 bit so we get the 32 bit version.  Get the SDK for "Simple unzip with license".  Modifiy the jdk.installer.properties file to install the jdk in the jdk subfolder of your image build folder.  To install the files execute ibm-java-sdk-7.1-3-30-i386-archive.bin -i silent -f $PWD/jdk.installer.properties.
 
 You should have the following subfolders in your build directory:
 
