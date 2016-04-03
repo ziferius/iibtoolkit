@@ -11,7 +11,7 @@ The version of eclipse with all of the IIB plugins in 3.6.2.  This is pretty old
 6.  IBM JDK v7, Release #1
 
 # TODO:
-Update the JDK of the toolkit to the latest GA version of IBM Java.
+Fix Eclipse DFDL and Message flow hangs.  Could it be Eclipse hanging when loading a plugin?
 
 # Pre-requisites
 Most of this is not freely available software from the web.  IIB v10 does have a completely free (as in beer) version available for download.  AFAIK, version 9 is no longer available.  Get the binaries from Passport Avantage Online.
