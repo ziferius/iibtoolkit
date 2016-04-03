@@ -1,5 +1,5 @@
 # iibtoolkit
-IBM Integration Bus v9 Toolkit with Healthcare Pack installed in a docker container.
+IBM Integration Bus v9 Toolkit with Healthcare Pack installed in a docker container.  It seems pretty speedy thus far.  Bits of the tooling do not work.
 
 The version of eclipse with all of the IIB plugins in 3.6.2.  This is pretty old by today's standards.  IIB won't even run successfully on CentOS 7.  So this is my attempt at creating a container that holds this tooling.
 
@@ -12,7 +12,9 @@ The version of eclipse with all of the IIB plugins in 3.6.2.  This is pretty old
 
 # TODO:
 Fix Eclipse DFDL and Message flow hangs.  Could it be Eclipse hanging when loading a plugin?
-See the file "workspace.log" and "workspace-errors.txt"  The errors file has the first line of the stack trace of the errors.. and of course the log file has everything.
+See the file "workspace.log" and "workspace-errors.txt"  The errors file has the first line of the stack trace of the errors.. and of course the log file has everything.  The same errors happen when we leave the JDK alone -- these weren't introduced with the update.
+
+- SVN Plugin (what we use at work)
 
 # Pre-requisites
 Most of this is not freely available software from the web.  IIB v10 does have a completely free (as in beer) version available for download.  AFAIK, version 9 is no longer available.  Get the binaries from Passport Avantage Online.
