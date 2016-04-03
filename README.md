@@ -29,12 +29,13 @@ xulrunner
 
 and you should have Dockerfile in the build folder as well.
 
-Then you execute docker build --rm -t iibtoolkit .
+Edit the Dockerfile -- replace it with your user's UID and GID.
 
+Then you execute docker build --rm -t iibtoolkit .
 It'll grind awhile.  Also it'll be almost 6 gigs when it's done.
+
+To run the toolkit, get the script.
 ---
 This does not fully work yet.  There are still some kinks.
 Basically whenever a message flow or DFDL is editted, the editor freezes.
 I'm not sure why...   I'll detail the issues from the workspace logs later.
-
-
