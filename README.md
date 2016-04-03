@@ -35,7 +35,7 @@ and you should have Dockerfile in the build folder as well.
 Edit the Dockerfile -- replace it with your user's UID and GID. 
 
 Then you execute docker build --rm -t iibtoolkit .
-It'll grind awhile.  Also it'll be almost 6 gigs when it's done.
+It'll grind awhile.  Also it'll be almost 10 gigs when it's done.
 
 To run the toolkit, get the script.
 ---
