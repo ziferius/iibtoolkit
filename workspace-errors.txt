@@ -1,0 +1,16 @@
+java.lang.RuntimeException: WARNING: Prevented recursive attempt to activate part com.ibm.etools.mft.navigator.resource while still in the middle of activating part com.ibm.etools.mft.flow.editor
+java.lang.RuntimeException: WARNING: Prevented recursive attempt to activate part com.ibm.etools.mft.navigator.resource while still in the middle of activating part com.ibm.etools.mft.flow.editor
+java.lang.RuntimeException: WARNING: Prevented recursive attempt to activate part org.eclipse.ui.views.PropertySheet while still in the middle of activating part com.ibm.etools.mft.flow.editor
+java.lang.RuntimeException: WARNING: Prevented recursive attempt to activate part com.ibm.etools.mft.navigator.resource while still in the middle of activating part com.ibm.etools.mft.flow.editor
+java.lang.RuntimeException: WARNING: Prevented recursive attempt to activate part com.ibm.etools.mft.broker.runtime.views.BrokerRuntimeView while still in the middle of activating part com.ibm.etools.mft.flow.editor
+java.lang.RuntimeException: WARNING: Prevented recursive attempt to activate part org.eclipse.ui.views.ProblemView while still in the middle of activating part com.ibm.etools.mft.flow.editor
+java.lang.RuntimeException: WARNING: Prevented recursive attempt to activate part org.eclipse.ui.views.ProblemView while still in the middle of activating part com.ibm.etools.mft.flow.editor
+java.lang.RuntimeException: WARNING: Prevented recursive attempt to activate part org.eclipse.ui.views.ContentOutline while still in the middle of activating part com.ibm.etools.mft.flow.editor
+java.lang.RuntimeException: WARNING: Prevented recursive attempt to activate part org.eclipse.ui.views.ContentOutline while still in the middle of activating part com.ibm.etools.mft.flow.editor
+java.lang.RuntimeException: WARNING: Prevented recursive attempt to activate part org.eclipse.ui.views.TaskList while still in the middle of activating part com.ibm.etools.mft.flow.editor
+java.lang.RuntimeException: WARNING: Prevented recursive attempt to activate part org.eclipse.ui.views.TaskList while still in the middle of activating part com.ibm.etools.mft.flow.editor
+java.lang.RuntimeException: WARNING: Prevented recursive attempt to activate part com.ibm.etools.mft.broker.runtime.views.DeploymentLogView while still in the middle of activating part com.ibm.etools.mft.flow.editor
+java.lang.RuntimeException: WARNING: Prevented recursive attempt to activate part com.ibm.etools.mft.broker.runtime.views.DeploymentLogView while still in the middle of activating part com.ibm.etools.mft.flow.editor
+java.lang.RuntimeException: WARNING: Prevented recursive attempt to activate part com.ibm.etools.mft.navigator.resource while still in the middle of activating part com.ibm.etools.mft.flow.editor
+java.lang.RuntimeException: WARNING: Prevented recursive attempt to activate part com.ibm.etools.mft.navigator.resource while still in the middle of activating part com.ibm.etools.mft.flow.editor
+java.lang.RuntimeException: WARNING: Prevented recursive attempt to activate part com.ibm.etools.mft.navigator.resource while still in the middle of activating part com.ibm.etools.mft.flow.editor
