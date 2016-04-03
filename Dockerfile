@@ -19,6 +19,7 @@ RUN yum update -y && yum install -y compat-libstdc++-33.i686 \
 COPY Integration_Toolkit/ /install/toolkit
 COPY xulrunner /install/xulrunner
 COPY hcp /install/hcp
+COPY jdk /install/jdk
 
 ENV ECLIPSEINI=/opt/IBM/IntegrationToolkit90/eclipse.ini
 
@@ -39,6 +40,11 @@ RUN cd /install/hcp && \
 # Update Toolkit
 RUN cd /opt/IBM/InstallationManager/eclipse/tools && \
     ./imcl -sP -updateAll -acceptLicense
+
+# Update Toolkit JDK
+RUN cd /opt/IBM/IntegrationToolkit90 && \
+    mv jdk jdk.old && \
+    cp -ra /install/jdk jdk
 
 ENV USER dev
 ENV HOME /home/$USER
