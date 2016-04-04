@@ -11,7 +11,8 @@ The version of eclipse with all of the IIB plugins in 3.6.2.  This is pretty old
 6.  IBM JDK v7, Release #1
 
 # TODO:
-Fix Eclipse DFDL and Message flow hangs.  Could it be Eclipse hanging when loading a plugin?
+The errors happening on a Fedora 23 Workstation install.
+- Fix Eclipse DFDL and Message flow hangs.  Could it be Eclipse hanging when loading a plugin?
 See the file "workspace.log" and "workspace-errors.txt"  The errors file has the first line of the stack trace of the errors.. and of course the log file has everything.  The same errors happen when we leave the JDK alone -- these weren't introduced with the update.
 
 - SVN Plugin (what we use at work)
