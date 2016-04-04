@@ -21,6 +21,8 @@ COPY xulrunner /install/xulrunner
 COPY hcp /install/hcp
 COPY jdk /install/jdk
 
+RUN mkdir -p /opt/IBM && ln -s /opt/IBM /opt/ibm
+
 ENV ECLIPSEINI=/opt/IBM/IntegrationToolkit90/eclipse.ini
 
 RUN cd /install/toolkit && ./installToolkit-silent.sh && \
