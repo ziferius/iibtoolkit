@@ -1,5 +1,6 @@
 #!/bin/bash
 
+xhost +
 mkdir -p .iibtoolkit-docker
 docker run -ti --rm \
            -e DISPLAY=$DISPLAY \
